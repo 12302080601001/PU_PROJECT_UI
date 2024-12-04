@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.header-image {
+  margin-top: 15px;
+}
+
+.food-bank-img {
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+.dashboard, .forms, .inventory {
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  width: 90%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label, input, button {
+  margin: 8px 0;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
